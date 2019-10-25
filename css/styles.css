@@ -1,9 +1,10 @@
 
 div {
-    border-radius: 2px;
+    border-radius: px;
     background-color:wheat;
     padding: 20px;
   }
+ 
   .jumbotron{
       text-align: center;
       width:100%;
@@ -17,6 +18,10 @@ div {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: italic;
+  }
+  .card-heading{
+    background:linear-gradient(to right, wheat,chocolate, wheat);
+
   }
   
   label {
