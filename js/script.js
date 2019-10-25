@@ -21,4 +21,27 @@ function myFunc() {
     if (birthdate == 0 && g == "female") {
         document.getElementById("result").innerHTML = fname[0];
     }
+    else if (birthdate == 1 && g == "female") {
+        document.getElementById("result").innerHTML = fname[1];
+    }
+
+    else if (birthdate == 2 && g == "female") {
+        document.getElementById("result").innerHTML = fname[2];
+    }
+
+    else if (birthdate == 3 && g == "female") {
+        document.getElementById("result").innerHTML = fname[3];
+    }
+
+    else if (birthdate == 4 && g == "female") {
+        document.getElementById("result").innerHTML = fname[4];
+    }
+
+    else if (birthdate == 5 && g == "female") {
+        document.getElementById("result").innerHTML = fname[5];
+    }
+
+    else if (birthdate == 6 && g == "female") {
+        document.getElementById("result").innerHTML = fname[6];
+    }
 }
