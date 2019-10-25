@@ -9,7 +9,7 @@ function myFunc() {
     let MM = parseInt(m);
     let DD = parseInt(d);
 
-    let birthday = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+    let birthday = (((CC / 4) - (2 * CC - 1)) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
     let birthdate = birthday.toFixed(0);
 
 
