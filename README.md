@@ -1,5 +1,5 @@
-# Portfolio
-#### This is my first Portfolio Landing Page, 18th October 2019
+# Akan Name Generator
+####  25th October 2019
 #### Authors
 - [nessa-waithaka](https://github.com/nessa-waithaka)
 ## Description
@@ -20,11 +20,11 @@ To start using this project use the following commands:
 ## Behavior Driven Development (BDD)
 | Behavior | Input    | Output   |
 | :------------- | :------------- | :------------- |
-| User authentication | click on the sign up button  | registration form |
-| Profile editing | Click on edit profile button  | profile page form|
-| User can view details of a single post | Click on a specific post  | Profile page details form |
-| User can search for specific stories | Input a keyword on the search bar | Results-page |
-| User can view stories related to what their interests| Clicks on shared posts button| Feeds Page |
+| Day authentication | Enter the day of birth| Day form |
+| Month authentication | Enter the month of birth  | Month form|
+|Year authentication| Enter the year of birth  |Year form |
+| User can view Akan name | Click on Submit button | Output box |
+| User can reset values | Click on Reset button | All forms clear |
 
 
 ## Known Bugs 
