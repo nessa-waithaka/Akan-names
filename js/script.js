@@ -77,7 +77,4 @@ function myFunc() {
     }
 
 }
-   /*var d = document.getElementById("day").value;
-var x = new Date(d).getDay();
-document.getElementById("result").innerHTML = x;*/
 
