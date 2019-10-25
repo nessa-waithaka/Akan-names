@@ -72,9 +72,6 @@ function myFunc() {
     else if (birthdate == 6 && g == "male") {
         document.getElementById("result").innerHTML = mname[6];
     }
-    else {
-        document.getElementById("result").innerHTML = demo;
-    }
 
 }
 

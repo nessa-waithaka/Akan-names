@@ -21,9 +21,10 @@ div {
   }
   .card-heading{
     background:linear-gradient(to right, wheat,chocolate, wheat);
-
   }
-  
+  .card-body{
+    background:wheat;
+  }
   label {
     font-family: "Roboto Slab", serif;
     color: black;
