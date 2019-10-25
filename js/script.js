@@ -13,4 +13,12 @@ function myFunc() {
     let birthdate = birthday.toFixed(0);
 
     //document.getElementById("result").innerHTML = birthdate;
+
+    //var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let fname = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    let mname = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+
+    if (birthdate == 0 && g == "female") {
+        document.getElementById("result").innerHTML = fname[0];
+    }
 }
