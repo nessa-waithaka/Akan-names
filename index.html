@@ -28,67 +28,70 @@
             <div class="card-heading">
               <h2>Female names</h2>
             </div>
-            <div class="card-body">
-              Sunday: Akosua</br>
-              Monday: Adwoa</br>
-              Tuesday: Abenaa</br>
-              Wednesday: Akua</br>
-              Thursday: Yaa</br>
-              Friday: Afua</br>
-              Saturday: Ama</br>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-heading">
-              <h2>Male names</h2>
-            </div>
-            <div class="card-body">
-              Sunday: Kwasi</br>
-              Monday: Kwadwo</br>
-              Tuesday: Kwabena</br>
-              Wednesday: Kwaku</br>
-              Thursday: Yaw</br>
-              Friday: Kofi</br>
-              Saturday: Kwame</br>
-            </div>
+            <ul>
+              <li>Sunday: Akosua</li>
+              <li>Monday: Adwoa</li>
+              <li>Tuesday: Abenaa</li>
+              <li>Wednesday: Akua</li>
+              <li>Thursday: Yaa</li>
+              <li>Friday: Afua</li>
+              <li>Saturday: Ama </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <form onsubmit="return false;">
-          <label for="day">Day</label>
-          <input id="day" type="text" placeholder="day" min="1" max="31" required />
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-heading">
+            <h2>Male names</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Sunday: Kwasi</li>
+              <li>Monday: Kwadwo</li>
+              <li>Tuesday: Kwabena</li>
+              <li>Wednesday: Kwaku</li>
+              <li>Thursday: Yaw</li>
+              <li>Friday: Kofi</li>
+              <li>Saturday: Kwame</li>
+              <ul>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <label for="month">Month</label>
-        <input type="text" id="month" min="1" max="12" placeholder="month" required />
-      </div>
-      <div class="col-md-4">
-        <label for="year">Year</label>
-        <input type="text" id="year" max="2019" placeholder="year" required />
-      </div>
     </div>
-    <div class="row">
-      <label for="gender">Gender</label>
-      <select id="gender" name="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <form onsubmit="return false;">
+        <label for="day">Day</label>
+        <input id="day" type="text" placeholder="day" min="1" max="31" required />
     </div>
-    </br>
-    <div class="row">
-      <input type="submit" onclick="myFunc()" value="Submit" />
-      <input type="reset" />
+    <div class="col-md-4">
+      <label for="month">Month</label>
+      <input type="text" id="month" min="1" max="12" placeholder="month" required />
+    </div>
+    <div class="col-md-4">
+      <label for="year">Year</label>
+      <input type="text" id="year" max="2019" placeholder="year" required />
+    </div>
+  </div>
+  <div class="row">
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+  </div>
+  </br>
+  <div class="row">
+    <input type="submit" onclick="myFunc()" value="Submit" />
+    <input type="reset" />
 
-    </div>
-    <div class=output>
-      <p>Your Akan name is:</p><output id="result"></output></br>
-    </div>
-    </form>
+  </div>
+  <div class=output>
+    <p>Your Akan name is:</p><output id="result"></output></br>
+  </div>
+  </form>
   </div>
   </div>
   </div>
