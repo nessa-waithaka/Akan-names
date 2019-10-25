@@ -1,0 +1,50 @@
+div {
+    border-radius: 2px;
+    background-color: #ca6262;
+    padding: 20px;
+  }
+  h1{
+    font-family: "Bree Serif", serif;
+  }
+  label {
+    color: black;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 20%;
+    background-color: chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  input[type="reset"] {
+    width: 20%;
+    background-color: chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: coral;
+  }
+  input[type="reset"]:hover {
+    background-color: coral;
+  }
