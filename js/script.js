@@ -15,7 +15,15 @@ function myFunc() {
   let date = new Date(`${y}-${m}-${d}`);
   let birthdate = date.getDay();
 
-
+  if (day < 1 || day > 31 || day == "" || day == 0) {
+    alert("Enter valid day!")
+  }
+  if (month < 1 || month > 12 || month == "" || month == 0) {
+    alert("Enter valid day!")
+  }
+  if (year < 1900 || year > 2019 || year == "" || year == 0) {
+    alert("Enter valid year!")
+  }
 
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let fname = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -31,54 +39,4 @@ function myFunc() {
     document.getElementById("result").innerHTML = mname[birthdate];
   }
 }
-
-//   else if (birthdate == 2 && g == "female") {
-//     document.getElementById("result").innerHTML = fname[2];
-//   }
-
-//   else if (birthdate == 3 && g == "female") {
-//     document.getElementById("result").innerHTML = fname[3];
-//   }
-
-//   else if (birthdate == 4 && g == "female") {
-//     document.getElementById("result").innerHTML = fname[4];
-//   }
-
-//   else if (birthdate == 5 && g == "female") {
-//     document.getElementById("result").innerHTML = fname[5];
-//   }
-
-//   else if (birthdate == 6 && g == "female") {
-//     document.getElementById("result").innerHTML = fname[6];
-//   }
-
-//   if (birthdate == 0 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[0];
-//   }
-
-//   else if (birthdate == 1 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[1];
-//   }
-
-//   else if (birthdate == 2 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[2];
-//   }
-
-//   else if (birthdate == 3 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[3];
-//   }
-
-//   else if (birthdate == 4 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[4];
-//   }
-
-//   else if (birthdate == 5 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[5];
-//   }
-
-//   else if (birthdate == 6 && g == "male") {
-//     document.getElementById("result").innerHTML = mname[6];
-//   }
-
-// }
 
