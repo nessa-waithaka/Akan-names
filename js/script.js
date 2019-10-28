@@ -21,61 +21,64 @@ function myFunc() {
   let fname = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   let mname = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
-  if (birthdate == 0 && g == "female") {
-    document.getElementById("result").innerHTML = fname[0];
+  if (g == "female") {
+    document.getElementById("result1").innerHTML = days[birthdate];
+    document.getElementById("result").innerHTML = fname[birthdate];
   }
 
-  else if (birthdate == 1 && g == "female") {
-    document.getElementById("result").innerHTML = fname[1];
+  else if (g == "male") {
+    document.getElementById("result1").innerHTML = days[birthdate];
+    document.getElementById("result").innerHTML = mname[birthdate];
   }
-
-  else if (birthdate == 2 && g == "female") {
-    document.getElementById("result").innerHTML = fname[2];
-  }
-
-  else if (birthdate == 3 && g == "female") {
-    document.getElementById("result").innerHTML = fname[3];
-  }
-
-  else if (birthdate == 4 && g == "female") {
-    document.getElementById("result").innerHTML = fname[4];
-  }
-
-  else if (birthdate == 5 && g == "female") {
-    document.getElementById("result").innerHTML = fname[5];
-  }
-
-  else if (birthdate == 6 && g == "female") {
-    document.getElementById("result").innerHTML = fname[6];
-  }
-
-  if (birthdate == 0 && g == "male") {
-    document.getElementById("result").innerHTML = mname[0];
-  }
-
-  else if (birthdate == 1 && g == "male") {
-    document.getElementById("result").innerHTML = mname[1];
-  }
-
-  else if (birthdate == 2 && g == "male") {
-    document.getElementById("result").innerHTML = mname[2];
-  }
-
-  else if (birthdate == 3 && g == "male") {
-    document.getElementById("result").innerHTML = mname[3];
-  }
-
-  else if (birthdate == 4 && g == "male") {
-    document.getElementById("result").innerHTML = mname[4];
-  }
-
-  else if (birthdate == 5 && g == "male") {
-    document.getElementById("result").innerHTML = mname[5];
-  }
-
-  else if (birthdate == 6 && g == "male") {
-    document.getElementById("result").innerHTML = mname[6];
-  }
-
 }
+
+//   else if (birthdate == 2 && g == "female") {
+//     document.getElementById("result").innerHTML = fname[2];
+//   }
+
+//   else if (birthdate == 3 && g == "female") {
+//     document.getElementById("result").innerHTML = fname[3];
+//   }
+
+//   else if (birthdate == 4 && g == "female") {
+//     document.getElementById("result").innerHTML = fname[4];
+//   }
+
+//   else if (birthdate == 5 && g == "female") {
+//     document.getElementById("result").innerHTML = fname[5];
+//   }
+
+//   else if (birthdate == 6 && g == "female") {
+//     document.getElementById("result").innerHTML = fname[6];
+//   }
+
+//   if (birthdate == 0 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[0];
+//   }
+
+//   else if (birthdate == 1 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[1];
+//   }
+
+//   else if (birthdate == 2 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[2];
+//   }
+
+//   else if (birthdate == 3 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[3];
+//   }
+
+//   else if (birthdate == 4 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[4];
+//   }
+
+//   else if (birthdate == 5 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[5];
+//   }
+
+//   else if (birthdate == 6 && g == "male") {
+//     document.getElementById("result").innerHTML = mname[6];
+//   }
+
+// }
 
