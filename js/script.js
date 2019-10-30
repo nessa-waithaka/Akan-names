@@ -21,8 +21,11 @@ function myFunc() {
   if (m < 1 || m > 12) {
     alert("Enter valid month!")
   }
-  if (y < 1900 || y > 2019) {
+  if (y < 1400 || y > 2019) {
     alert("Enter valid year!")
+  }
+  if (m == 2 && d < 1 || d > 29) {
+    alert("Enter valid date!")
   }
 
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
