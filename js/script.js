@@ -15,13 +15,13 @@ function myFunc() {
   let date = new Date(`${y}-${m}-${d}`);
   let birthdate = date.getDay();
 
-  if (day < 1 || day > 31 || day == "" || day == 0) {
+  if (d < 1 || d > 31) {
     alert("Enter valid day!")
   }
-  if (month < 1 || month > 12 || month == "" || month == 0) {
-    alert("Enter valid day!")
+  if (m < 1 || m > 12) {
+    alert("Enter valid month!")
   }
-  if (year < 1900 || year > 2019 || year == "" || year == 0) {
+  if (y < 1900 || y > 2019) {
     alert("Enter valid year!")
   }
 
